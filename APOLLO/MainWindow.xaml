@@ -32,48 +32,107 @@
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
                             Margin="2,10,10,10" Grid.ColumnSpan="2">
-                <TextBox HorizontalAlignment="Left" Margin="330,86,0,0" Text="Solution (Comming Soon)" TextWrapping="Wrap" VerticalAlignment="Top" Width="470" Height="66"/>
 
             </ContentControl>
             <Button
+                Click="ClickBtn1"
                 Grid.Column="2" Margin="138,190,428,244" Grid.Row="1">
                 <TextBlock Text="1" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+               Click="ClickBtn2"
                 Grid.Column="2" Margin="297,190,269,244" Grid.Row="1">
                 <TextBlock Text="2" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn3"
                 Grid.Column="2" Margin="456,190,110,244" Grid.Row="1">
                 <TextBlock Text="3" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn4"
                 Grid.Column="2" Margin="138,270,428,164" Grid.Row="1">
                 <TextBlock Text="4" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn5"
                 Grid.Column="2" Margin="297,270,269,164" Grid.Row="1">
                 <TextBlock Text="5" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn6"
                 Grid.Column="2" Margin="456,270,110,164" Grid.Row="1">
                 <TextBlock Text="6" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn7"
                 Grid.Column="2" Margin="138,350,428,84" Grid.Row="1">
                 <TextBlock Text="7" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn8"
                 Grid.Column="2" Margin="297,350,269,84" Grid.Row="1">
                 <TextBlock Text="8" Height="47" Width="32" FontSize="34"/>
             </Button>
             <Button
+                Click="ClickBtn9"
                 Grid.Column="2" Margin="456,350,110,84" Grid.Row="1">
                 <TextBlock Text="9" Height="47" Width="32" FontSize="34"/>
             </Button>
             <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="66,29,0,0" Text="APOLLO" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="117" Foreground="White"/>
+            <Button
+                Click="ClickBtn0"
+                Grid.Column="2" Margin="297,430,269,4" Grid.Row="1">
+                <TextBlock Text="0" Height="47" Width="32" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickBtnCE"
+                Grid.Column="2" Margin="615,190,8,244" Grid.Row="1">
+                <TextBlock Text="CE" Height="47" Width="42" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickBtnBack"
+                Grid.Column="2" Margin="615,270,8,164" Grid.Row="1">
+                <TextBlock Text="←" Height="47" Width="48" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickPlus"
+                Grid.Column="2" Margin="51,190,587,244" Grid.Row="1">
+                <TextBlock Text="+" Height="47" Width="42" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickMinus"
+                Grid.Column="2" Margin="51,270,587,164" Grid.Row="1">
+                <TextBlock Text="-" Height="47" Width="42" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickMal"
+                Grid.Column="2" Margin="51,350,587,84" Grid.Row="1">
+                <TextBlock Text="x" Height="47" Width="42" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickGeteilt"
+                Grid.Column="2" Margin="51,430,587,4" Grid.Row="1">
+                <TextBlock Text="/" Height="47" Width="42" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickC"
+                Grid.Column="2" Margin="615,350,8,84" Grid.Row="1">
+                <TextBlock Text="C" Height="47" Width="48" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickPlusMinus"
+                Grid.Column="2" Margin="138,430,428,4" Grid.Row="1">
+                <TextBlock Text="+-" Height="47" Width="42" FontSize="34"/>
+            </Button>
+            <Button
+                Click="ClickBtnEquals"
+                Grid.Column="2" Margin="456,430,110,4" Grid.Row="1">
+                <TextBlock Text="=" Height="47" Width="32" FontSize="34"/>
+            </Button>
 
 
+            <TextBox IsReadOnly="True" TextAlignment="Right" BorderThickness="0" HorizontalAlignment="Left" Margin="138,73,0,0" Text="0" TextWrapping="Wrap" FontSize="30" VerticalAlignment="Top" Width="472" Height="66" Grid.Column="2" Grid.Row="1"/>
 
 
         </Grid>
